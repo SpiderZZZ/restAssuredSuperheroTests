@@ -102,7 +102,7 @@ public class Superhero {
     public Map<String, Object> getPlayerJson()
     {
         Map<String, Object> playerJson = new HashMap<>();
-        playerJson.put("birthDate", getBirthDate());
+        playerJson.put("birthDate", getBirthDate().toString());
         playerJson.put("city",getCity());
         playerJson.put("fullName",getFullName());
         playerJson.put("gender",getGender().genderString);
