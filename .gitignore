@@ -8,6 +8,7 @@ build
 out
 gradlew
 gradlew.bat
+gradle
 *.iml
 *.iws
 *.ipr
