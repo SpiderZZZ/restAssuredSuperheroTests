@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "fullName": {
+          "type": "string"
+        },
+        "birthDate": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "mainSkill": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "id",
+        "fullName",
+        "birthDate",
+        "city",
+        "mainSkill",
+        "gender",
+        "phone"
+      ]
+    }
+   ]
+}
